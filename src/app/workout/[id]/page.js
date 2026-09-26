@@ -18,7 +18,7 @@ export default function WorkoutDetails({ params }) {
     if (!workoutId) return;
     
     setLoading(true);
-    fetch(`https://api.abcz.workers.dev/api/fitlog/${workoutId}`)
+    fetch(`https://api.api-store.workers.dev/api/fitlog/${workoutId}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("Workout not found in API");
