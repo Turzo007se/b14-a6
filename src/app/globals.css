@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+  --font-oswald: 'Oswald', sans-serif;
+}
+
+
+body {
+  background-color: #09090b;
+  color: #ffffff;
+}
